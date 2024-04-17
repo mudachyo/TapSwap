@@ -6,4 +6,4 @@
 - Tab URL: `*` From: `https://telegram.org/js/telegram-web-app.js` To: `https://ktnff.tech/universal/telegram-web-app.js`
 - ![Extension settings](settings.png)
 - Open [Bot](https://web.telegram.org/k/#@tapswap_bot) and run the game
-- ![Result](resultat.png)
+- ![Result](result.png)

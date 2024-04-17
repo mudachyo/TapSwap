@@ -6,4 +6,4 @@
 - Tab URL: `*` From: `https://telegram.org/js/telegram-web-app.js` To: `https://ktnff.tech/universal/telegram-web-app.js`
 - ![Настройки расширения](settings.png)
 - Открыть [Бота](https://web.telegram.org/k/#@tapswap_bot) и запустить игру
-- ![Результат](image.png)
+- ![Результат](result.png)

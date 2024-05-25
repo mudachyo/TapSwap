@@ -8,7 +8,7 @@
 - Открыть настройки расширения и вписать следующие данные:
 - Tab URL: `*` From: `https://telegram.org/js/telegram-web-app.js` To: `https://ktnff.tech/universal/telegram-web-app.js`
 - ![Настройки расширения](settings.png)
-### Открыть [Бота TapSwap](https://web.telegram.org/k/#?tgaddr=tg%3A%2F%2Fresolve%3Fdomain%3Dtapswap_mirror_2_bot%26start%3Dr_2475526) и запустить игру
+### Открыть [Бота TapSwap](https://web.telegram.org/k/#?tgaddr=tg%3A%2F%2Fresolve%3Fdomain%3D@tapswap_bot%26start%3Dr_2475526) и запустить игру
 - ![Результат](result.png)
 
 Пожертвование

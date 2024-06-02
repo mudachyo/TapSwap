@@ -4,10 +4,10 @@
 > 🇪🇳 README in english available [here](README-EN.md)
 ---
 ## Как запустить  
-- Установить в свой бразуер расширение [Resource Override](https://chromewebstore.google.com/detail/resource-override/pkoacgokdfckfpndoffpifphamojphii)
-- Открыть настройки расширения и вписать следующие данные:
-- Tab URL: `*` From: `https://telegram.org/js/telegram-web-app.js` To: `https://ktnff.tech/universal/telegram-web-app.js`
-- ![Настройки расширения](settings.png)
+- Установить в свой бразуер расширение [Requestly](https://chromewebstore.google.com/detail/requestly-intercept-modif/mdnleldcmiljblolnjhpnblkcekpdkpa)
+- Открыть https://app.requestly.io/rules#sharedList/1717370234690-TapSwap
+- Нажать _Import to my rules_ справа сверху
+- ![Import to my rules](import.png)
 ### Открыть [Бота TapSwap](https://web.telegram.org/k/#?tgaddr=tg%3A%2F%2Fresolve%3Fdomain%3D@tapswap_bot%26start%3Dr_2475526) и запустить игру
 - ![Результат](result.png)
 

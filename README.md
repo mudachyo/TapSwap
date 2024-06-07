@@ -6,10 +6,14 @@
 ## Как запустить  
 - Установить в свой бразуер расширение [Requestly](https://chromewebstore.google.com/detail/requestly-intercept-modif/mdnleldcmiljblolnjhpnblkcekpdkpa)
 - Открыть https://app.requestly.io/rules#sharedList/1717370234690-TapSwap
-- Нажать _Import to my rules_ справа сверху
-- ![Import to my rules](import.png)
+- Нажать _Import to my rules_ справа сверху  ![Import to my rules](import.png)
+## Автокликер
+- Откройте https://app.requestly.io/rules#sharedList/1717725016165-TapSwap-Autoclicker
+- Нажмите Import to my rules справа сверху
+  
 ### Открыть [Бота TapSwap](https://web.telegram.org/k/#?tgaddr=tg%3A%2F%2Fresolve%3Fdomain%3D@tapswap_bot%26start%3Dr_2475526) и запустить игру
-- ![Результат](result.png)
+
+- ![Результат](result.gif)
 
 ---
 > [!TIP]

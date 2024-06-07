@@ -6,10 +6,13 @@
 ## How to run  
 - Install the extension in your browser [Requestly](https://chromewebstore.google.com/detail/requestly-intercept-modif/mdnleldcmiljblolnjhpnblkcekpdkpa)
 - Open https://app.requestly.io/rules#sharedList/1717370234690-TapSwap
-- Click _Import to my rules_ on the top right.
-- ![Import to my rules](import.png)
+- Click _Import to my rules_ on the top right. ![Import to my rules](import.png)
+## Autoclicker
+- Open https://app.requestly.io/rules#sharedList/1717725016165-TapSwap-Autoclicker
+- Click Import to my rules at the top right
+  
 ### Open [Bot TapSwap](https://web.telegram.org/k/#?tgaddr=tg%3A%2F%2Fresolve%3Fdomain%3Dtapswap_bot%26start%3Dr_2475526) and run the game
-- ![Result](result.png)
+- ![Result](result.gif)
 
 ---
 > [!TIP]

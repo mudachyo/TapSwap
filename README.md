@@ -1,7 +1,7 @@
 > [!NOTE]
-> Контакты: [Telegram](https://t.me/mudachyo)
-> 
-> 🇪🇳 README in english available [here](README-EN.md)
+> - Контакты: [Telegram](https://t.me/mudachyo) 
+> - Канал: [Telegram Channel](https://t.me/shopalenka) 
+> - 🇪🇳 README in english available [here](README-EN.md)
 ---
 ## Как запустить  
 - Установить в свой бразуер расширение [Requestly](https://chromewebstore.google.com/detail/requestly-intercept-modif/mdnleldcmiljblolnjhpnblkcekpdkpa)
@@ -25,7 +25,7 @@
 > 
 > - [MemeFi](https://github.com/mudachyo/MemeFi-Coin)
 > 
-> - [Blum](https://github.com/mudachyo/Blum)
+> - [Blum + Autoclicker](https://github.com/mudachyo/Blum)
 ---
 > [!IMPORTANT] 
 > Пожертвование

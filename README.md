@@ -12,7 +12,7 @@
 - Нажмите Import to my rules справа сверху
   
 ### Открыть [Бота TapSwap](https://web.telegram.org/k/#?tgaddr=tg%3A%2F%2Fresolve%3Fdomain%3D@tapswap_bot%26start%3Dr_2475526) и запустить игру
-
+## [Смотреть видео на YouTube](https://www.youtube.com/watch?v=m_9a2gd6NhI)
 - ![Результат](result.gif)
 
 ---

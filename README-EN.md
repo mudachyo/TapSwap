@@ -12,6 +12,7 @@
 - Click Import to my rules at the top right
   
 ### Open [Bot TapSwap](https://web.telegram.org/k/#?tgaddr=tg%3A%2F%2Fresolve%3Fdomain%3Dtapswap_bot%26start%3Dr_2475526) and run the game
+## [Watch the video on YouTube](https://www.youtube.com/watch?v=m_9a2gd6NhI)
 - ![Result](result.gif)
 
 ---

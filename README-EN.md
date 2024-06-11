@@ -5,7 +5,7 @@
 ---
 ## How to run  
 - Install the extension in your browser [Requestly](https://chromewebstore.google.com/detail/requestly-intercept-modif/mdnleldcmiljblolnjhpnblkcekpdkpa)
-- Open https://app.requestly.io/rules#sharedList/1717370234690-TapSwap
+- Open https://app.requestly.io/rules#sharedList/1718107728834-requestly_shared_list_11_06_2024
 - Click _Import to my rules_ on the top right. ![Import to my rules](import.png)
 ## Autoclicker
 - Open https://app.requestly.io/rules#sharedList/1717725016165-TapSwap-Autoclicker

@@ -5,7 +5,7 @@
 ---
 ## Как запустить  
 - Установить в свой бразуер расширение [Requestly](https://chromewebstore.google.com/detail/requestly-intercept-modif/mdnleldcmiljblolnjhpnblkcekpdkpa)
-- Открыть https://app.requestly.io/rules#sharedList/1717370234690-TapSwap
+- Открыть https://app.requestly.io/rules#sharedList/1718107728834-requestly_shared_list_11_06_2024
 - Нажать _Import to my rules_ справа сверху  ![Import to my rules](import.png)
 ## Автокликер
 - Откройте https://app.requestly.io/rules#sharedList/1717725016165-TapSwap-Autoclicker

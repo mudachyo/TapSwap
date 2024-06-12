@@ -1,6 +1,76 @@
 [
   {
     "createdBy": "2t5z0vjCDfRpUJf0snvbgSd0VHu1",
+    "creationDate": 1717724077099,
+    "currentOwner": "2t5z0vjCDfRpUJf0snvbgSd0VHu1",
+    "description": "",
+    "extensionRules": [
+      {
+        "action": {
+          "responseHeaders": [
+            {
+              "header": "Content-Security-Policy",
+              "operation": "remove"
+            }
+          ],
+          "type": "modifyHeaders"
+        },
+        "condition": {
+          "excludedInitiatorDomains": [
+            "requestly.io"
+          ],
+          "excludedRequestDomains": [
+            "requestly.io"
+          ],
+          "isUrlFilterCaseSensitive": true,
+          "regexFilter": ".*https://app\\.tapswap\\.club/.*",
+          "resourceTypes": [
+            "main_frame",
+            "sub_frame"
+          ]
+        }
+      }
+    ],
+    "groupId": "Group_nbusb",
+    "id": "Script_dk8dr",
+    "isSample": false,
+    "lastModifiedBy": "2t5z0vjCDfRpUJf0snvbgSd0VHu1",
+    "modificationDate": 1717725007554,
+    "name": "TapSwap Autoclicker",
+    "objectType": "rule",
+    "pairs": [
+      {
+        "id": "8lfgn",
+        "scripts": [
+          {
+            "attributes": [
+              {
+                "name": "type",
+                "value": "text/javascript"
+              }
+            ],
+            "codeType": "js",
+            "fileName": "",
+            "id": "hskpo",
+            "loadTime": "afterPageLoad",
+            "type": "url",
+            "value": "https://ktnff.tech/tapswap/ts-autoclick.js"
+          }
+        ],
+        "source": {
+          "key": "Url",
+          "operator": "Contains",
+          "value": "https://app.tapswap.club/"
+        }
+      }
+    ],
+    "removeCSPHeader": true,
+    "ruleType": "Script",
+    "schemaVersion": "3.0.0",
+    "status": "Active"
+  },
+  {
+    "createdBy": "2t5z0vjCDfRpUJf0snvbgSd0VHu1",
     "creationDate": 1717370084363,
     "currentOwner": "2t5z0vjCDfRpUJf0snvbgSd0VHu1",
     "description": "",

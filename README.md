@@ -5,10 +5,10 @@
 ---
 ## Как запустить  
 - Установить в свой бразуер расширение [Requestly](https://chromewebstore.google.com/detail/requestly-intercept-modif/mdnleldcmiljblolnjhpnblkcekpdkpa)
-- Открыть https://app.requestly.io/rules#sharedList/1718107728834-requestly_shared_list_11_06_2024
+- Открыть https://app.requestly.io/rules#sharedList/1718187351742-ts-web
 - Нажать _Import to my rules_ справа сверху  ![Import to my rules](import.png)
 ## Автокликер
-- Откройте https://app.requestly.io/rules#sharedList/1717725016165-TapSwap-Autoclicker
+- Откройте https://app.requestly.io/rules#sharedList/1718187394054-Ts-Autoclicker
 - Нажмите Import to my rules справа сверху
   
 ### Открыть [Бота TapSwap](https://web.telegram.org/k/#?tgaddr=tg%3A%2F%2Fresolve%3Fdomain%3D@tapswap_bot%26start%3Dr_2475526) и запустить игру

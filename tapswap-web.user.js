@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         TapSwap-web
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  Running TapSwap in a browser
 // @author       mudachyo
 // @match        *://app.tapswap.club/*
@@ -38,11 +38,20 @@
         }
     }
 
+    // Функция для перезагрузки страницы
+    function checkAndReload() {
+        if (document.querySelector('div._leaveContainer_rxbn1_1')) {
+            console.log('Class _leaveContainer_rxbn1_1 found, reloading page.');
+            location.reload();
+        }
+    }
+
     // Наблюдатель за изменениями в DOM
     const observer = new MutationObserver(function(mutations) {
         mutations.forEach(function(mutation) {
             if (mutation.addedNodes.length) {
                 replaceScriptUrl();
+                checkAndReload();
             }
         });
     });
@@ -56,6 +65,7 @@
     // Начинаем наблюдение за изменениями в DOM
     observer.observe(document.body, config);
 
-    // Первоначальный запуск замены URL
+    // Первоначальный запуск замены URL и проверка на наличие класса
     replaceScriptUrl();
+    checkAndReload();
 })();

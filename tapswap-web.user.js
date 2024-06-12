@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         TapSwap-web
+// @name         TapSwap web
 // @namespace    http://tampermonkey.net/
 // @version      1.1
 // @description  Running TapSwap in a browser

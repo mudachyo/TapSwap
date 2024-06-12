@@ -3,10 +3,10 @@
 // @namespace    Violentmonkey Scripts
 // @match        *://*.tapswap.club/*
 // @author       mudachyo
-// @version      1.0
+// @version      1.1
 // @description  12.06.2024, 17:09:30
 // @grant        none
-// @icon         https://cdn4.cdn-telegram.org/file/RoC7ZYx9yo7MOeTx8vw_4JFfXOAAM7eh_KQ3-qNO734aqCHu42kMJxce6roxb1X1SjzFubMXuthhRkd9fQTceshS9EuSobMcdCMcUJr2ZulEyBu_Ks9qiA4Li7sP_gfiPdAbca4SX5aTgDGJbEfaBUsC6A5SpPDxWAdM7Q91uJwpI_BmY8IaPFfWpICIyvWr6jFvCX8VhZfpMnkhcArGaab3QJDqURkPeWxzJsnGGs8xsOWq2IFH0TU7qtS1Le7IFYQ780MBE0m8NKcYKLk9z3L-P2_UqcyBwX9tjVNd8sQmGC0217UlHNSLpgftPjAln_TXOUbQ1_rJO3npRbKuAg.jpg
+// @icon         https://www.softportal.com/en/scr/1089/icons/icon_src.png
 // @downloadURL  https://github.com/mudachyo/TapSwap/raw/main/tapswap-autoclicker.user.js
 // @updateURL    https://github.com/mudachyo/TapSwap/raw/main/tapswap-autoclicker.user.js
 // @homepage     https://github.com/mudachyo/TapSwap

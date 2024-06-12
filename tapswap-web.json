@@ -1,0 +1,132 @@
+[
+  {
+    "createdBy": "2t5z0vjCDfRpUJf0snvbgSd0VHu1",
+    "creationDate": 1717370084363,
+    "currentOwner": "2t5z0vjCDfRpUJf0snvbgSd0VHu1",
+    "description": "",
+    "extensionRules": [
+      {
+        "action": {
+          "responseHeaders": [
+            {
+              "header": "Content-Security-Policy",
+              "operation": "remove"
+            },
+            {
+              "header": "X-Frame-Options",
+              "operation": "remove"
+            }
+          ],
+          "type": "modifyHeaders"
+        },
+        "condition": {
+          "excludedInitiatorDomains": [
+            "requestly.io"
+          ],
+          "excludedRequestDomains": [
+            "requestly.io"
+          ],
+          "isUrlFilterCaseSensitive": true,
+          "regexFilter": ".*https://app\\.tapswap\\.club.*"
+        }
+      }
+    ],
+    "groupId": "Group_nbusb",
+    "id": "Headers_at4rv",
+    "isSample": false,
+    "lastModifiedBy": "2t5z0vjCDfRpUJf0snvbgSd0VHu1",
+    "modificationDate": 1717370193159,
+    "name": "TapSwap Headers",
+    "objectType": "rule",
+    "pairs": [
+      {
+        "id": "juewx",
+        "modifications": {
+          "Response": [
+            {
+              "header": "Content-Security-Policy",
+              "id": "mj594",
+              "type": "Remove",
+              "value": ""
+            },
+            {
+              "header": "X-Frame-Options",
+              "id": "jjibr",
+              "type": "Remove",
+              "value": ""
+            }
+          ]
+        },
+        "source": {
+          "key": "Url",
+          "operator": "Contains",
+          "value": "https://app.tapswap.club"
+        }
+      }
+    ],
+    "ruleType": "Headers",
+    "schemaVersion": "3.0.0",
+    "status": "Active",
+    "version": 2
+  },
+  {
+    "createdBy": "2t5z0vjCDfRpUJf0snvbgSd0VHu1",
+    "creationDate": 1717370028466,
+    "currentOwner": "2t5z0vjCDfRpUJf0snvbgSd0VHu1",
+    "description": "",
+    "extensionRules": [
+      {
+        "action": {
+          "redirect": {
+            "url": "https://ktnff.tech/universal/telegram-web-app.js"
+          },
+          "type": "redirect"
+        },
+        "condition": {
+          "excludedInitiatorDomains": [
+            "requestly.io"
+          ],
+          "excludedRequestDomains": [
+            "requestly.io"
+          ],
+          "isUrlFilterCaseSensitive": true,
+          "regexFilter": ".*https://telegram\\.org/js/telegram-web-app\\.js.*"
+        }
+      }
+    ],
+    "groupId": "Group_nbusb",
+    "id": "Redirect_e7sij",
+    "isSample": false,
+    "lastModifiedBy": "2t5z0vjCDfRpUJf0snvbgSd0VHu1",
+    "modificationDate": 1717370063495,
+    "name": "TapSwap request",
+    "objectType": "rule",
+    "pairs": [
+      {
+        "destination": "https://ktnff.tech/universal/telegram-web-app.js",
+        "destinationType": "url",
+        "id": "29h2o",
+        "source": {
+          "key": "Url",
+          "operator": "Contains",
+          "value": "https://telegram.org/js/telegram-web-app.js"
+        }
+      }
+    ],
+    "preserveCookie": false,
+    "ruleType": "Redirect",
+    "schemaVersion": "3.0.0",
+    "status": "Active"
+  },
+  {
+    "creationDate": 1717962756578,
+    "description": "",
+    "id": "Group_nbusb",
+    "isFavourite": true,
+    "modificationDate": 1717962756578,
+    "name": "TapSwap",
+    "objectType": "group",
+    "status": "Active",
+    "children": []
+  }
+]

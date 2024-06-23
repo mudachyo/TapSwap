@@ -3,6 +3,7 @@
 > - Канал: [Telegram Channel](https://t.me/shopalenka) 
 > - 🇪🇳 README in english available [here](README-EN.md)
 ---
+# Не используйте, пока я не обновлю проект
 ## Как запустить  
 - Установить в свой браузер расширение [Violentmonkey](https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag?hl=be)
 - Для того, чтобы TapSwap открывался в браузере установите [этот скрипт](https://github.com/mudachyo/TapSwap/raw/main/tapswap-web.user.js)
@@ -24,6 +25,16 @@
 > - [PixelTap + Autoclicker](https://github.com/mudachyo/PixelTap)
 > 
 > - [MemeFi + Autoclicker](https://github.com/mudachyo/MemeFi-Coin)
+>
+> - [Yescoin + Autoclicker](https://github.com/mudachyo/Yescoin)
+>
+> - [Gemz + Autoclicker](https://github.com/mudachyo/Gemz)
+>
+> - [Сrossfi + Autoclicker](https://github.com/mudachyo/Сrossfi)
+>
+> - [BUMP](https://github.com/mudachyo/BUMP)
+>
+> - [W-Coin](https://github.com/mudachyo/W-Coin)
 ---
 > [!IMPORTANT] 
 > Пожертвование

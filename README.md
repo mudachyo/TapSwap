@@ -3,7 +3,6 @@
 > - Канал: [Telegram Channel](https://t.me/shopalenka) 
 > - 🇪🇳 README in english available [here](README-EN.md)
 ---
-# Не используйте, пока я не обновлю проект
 ## Как запустить  
 - Установить в свой браузер расширение [Violentmonkey](https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag?hl=be)
 - Для того, чтобы TapSwap открывался в браузере установите [этот скрипт](https://github.com/mudachyo/TapSwap/raw/main/tapswap-web.user.js)

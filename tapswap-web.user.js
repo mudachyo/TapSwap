@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         TapSwap web
 // @namespace    http://tampermonkey.net/
-// @version      1.3
+// @version      1.4
 // @description  Running TapSwap in a browser with random iOS User-Agent
 // @author       mudachyo
 // @match        *://*.tapswap.*/*
@@ -31,7 +31,7 @@
 
     function replaceScriptUrl() {
         const oldUrl = 'https://telegram.org/js/telegram-web-app.js';
-        const newUrl = 'https://ktnff.tech/universal/telegram-web-app.js';
+        const newUrl = 'https://mudachyo.codes/universal/telegram-web-app.js';
         const scripts = document.getElementsByTagName('script');
         for (let script of scripts) {
             if (script.src === oldUrl) {

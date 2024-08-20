@@ -3,8 +3,8 @@
 // @namespace    Violentmonkey Scripts
 // @match        *://*.tapswap.club/*
 // @author       mudachyo
-// @version      1.3
-// @description  12.06.2024, 17:09:30
+// @version      1.4
+// @description  20.08.2024
 // @grant        none
 // @icon         https://www.softportal.com/en/scr/1089/icons/icon_src.png
 // @downloadURL  https://github.com/mudachyo/TapSwap/raw/main/tapswap-autoclicker.user.js
@@ -66,7 +66,7 @@ function getRandomCoordinateInCircle(radius) {
 }
 
 function getCurrentEnergy() {
-    const energyElement = document.querySelector("div._value_tzq8x_13 h4._h4_1w1my_1");
+    const energyElement = document.querySelector("._h4_1w1my_1");
     if (energyElement) {
         return parseInt(energyElement.textContent);
     }
@@ -74,26 +74,37 @@ function getCurrentEnergy() {
 }
 
 function checkCoinAndClick() {
-    if (isGamePaused) {
-        setTimeout(checkCoinAndClick, checkInterval);
-        return;
-    }
+  if (isGamePaused) {
+      setTimeout(checkCoinAndClick, checkInterval);
+      return;
+  }
 
-    const button = document.querySelector("#ex1-layer img");
+  const button = document.querySelector("#ex1-layer img");
 
-    if (button) {
-        console.log(`${logPrefix}Coin found. The click is executed.`, styles.success);
-        clickButton();
-    } else {
-        checkAttempts++;
-        if (checkAttempts >= maxCheckAttempts) {
-            console.log(`${logPrefix}Coin not found after 3 attempts. Reloading the page.`, styles.error);
-            location.reload();
-        } else {
-            console.log(`${logPrefix}Coin not found. Attempt  ${checkAttempts}/${maxCheckAttempts}. Check again after 3 seconds.`, styles.error);
-            setTimeout(checkCoinAndClick, checkInterval);
-        }
-    }
+  if (button) {
+      console.log(`${logPrefix}Coin found. The click is executed.`, styles.success);
+      clickButton();
+  } else {
+      checkAttempts++;
+      if (checkAttempts >= maxCheckAttempts) {
+          const tabsContainer = document.querySelector('div._tabsContainer_1pooj_1');
+          const map = document.querySelector('div._map_fdvj9_1');
+          const container = document.querySelector('div._container_1gakf_1');
+          const tabs = document.querySelector('div._tabs_1pooj_1');
+
+          if (tabsContainer || map || container || tabs) {
+              console.log(`${logPrefix}Special element found. Not reloading the page.`, styles.info);
+              checkAttempts = 0;
+              setTimeout(checkCoinAndClick, checkInterval);
+          } else {
+              console.log(`${logPrefix}Coin not found after 3 attempts. Reloading the page.`, styles.error);
+              location.reload();
+          }
+      } else {
+          console.log(`${logPrefix}Coin not found. Attempt ${checkAttempts}/${maxCheckAttempts}. Check again after 3 seconds.`, styles.error);
+          setTimeout(checkCoinAndClick, checkInterval);
+      }
+  }
 }
 
 function clickButton() {
